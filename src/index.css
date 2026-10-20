@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-script: "Petit Formal Script", cursive;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --color-misty-rose: #FFE4E1;
+  --color-old-rose: #BF7E81;
+  --color-rose-dark: #2F1E21;
+  --color-warm-ivory: #FFF9F8;
+  --color-rose-muted: #7E6567;
+}
+
+@layer base {
+  body {
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #2F1E21;
+    background-color: #FFF9F8;
+  }
+}
+
+.font-script {
+  font-family: "Petit Formal Script", cursive;
+}
+
+/* Smooth scrolling for anchor and TOC jumps */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF9F8;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8CAC8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BF7E81;
+}

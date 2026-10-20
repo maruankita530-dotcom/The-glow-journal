@@ -1,0 +1,6 @@
+{
+  "name": "The Glow Journal",
+  "description": "An editorial skincare and beauty publication offering beginner-friendly routines, ingredient deep dives, acne care, and budget-friendly beauty tips.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
